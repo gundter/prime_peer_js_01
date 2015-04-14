@@ -33,3 +33,63 @@ is more than 1 character in the String. Return 'val' and set the 'value' to the 
 
 14. Your answer should be a String value that equals 7. Is that what you got?
 */
+
+//Start with Terry navagating
+var value = 42;
+
+if (value >= 53){
+	value += 42;
+} else {
+	value -= 13;
+}
+
+value += "11";
+
+var array = [];
+
+for ( var i = 0; i < value.length; i++){
+	array.push(value.charAt(i));
+}
+
+array.shift();
+array.pop();
+
+var combineValues = "";
+
+for ( i = array.length - 1; i >= 0; i--){
+	combineValues += array[i];
+}
+
+value = parseInt(value);
+combineValues = parseInt(combineValues);
+
+//Switched to Tracy navagating
+value += combineValues;
+
+if (value < 60){
+	value = 14;
+}else if (value == 2930){
+	value = 27;
+}else {
+	value = 2;
+}
+
+i = 10;
+
+while (i > 0){
+	value++;
+	i--;
+}
+
+function convertString (val){
+	val = val.toString();
+	if (val.length > 1){
+		val = val.slice(1);
+	}
+	return val;
+}
+
+value = convertString(value);
+
+console.log(value);
+
