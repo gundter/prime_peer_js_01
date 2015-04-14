@@ -93,5 +93,5 @@ value = convertString(value);
 
 console.log(value);
 
-document.getElementById("gizmo").innerHTML = value;
+document.getElementById("p1").innerHTML = value;
 
