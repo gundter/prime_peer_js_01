@@ -1,7 +1,13 @@
+body {
+	padding: 0, 40px, 0, 40px;
+	background-color: #cccccc;
+}
+
 p {
 	color: #0000ff;
 	font-size: 36px;
 	font-weight: bold;
+	text-align: center;
 }
 strong {
 	color: #ff0000;
