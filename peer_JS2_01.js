@@ -93,5 +93,6 @@ value = convertString(value);
 
 console.log(value);
 
-document.getElementById("p1").innerHTML = value;
+document.getElementById("text").innerHTML = value;
+
 
